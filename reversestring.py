@@ -1,4 +1,4 @@
-str = "Hello"
+str = input("Enter a string: ")
 
 newStr = ""
 for i in str:

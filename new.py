@@ -1,14 +1,6 @@
-d = "Mu h amm ad"
-s = "Mustafa"
+a = ("1", "3", "4")
+b = ("2", "5")
 
+c = a + b
 
-# q = d.split(" ")
-# r = '' 
-
-# for i in q:
-#    r = (r+i)
-#    print(r)
-
-# print(r)
-# print(q)
-print(d.replace(" ",''))
+print(c)

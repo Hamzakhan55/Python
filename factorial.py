@@ -7,6 +7,4 @@ elif num > 1:
     new_number = 1
     for i in range(num, 0, -1):
         new_number *= i
-    print(f"The factorial of {num} is 
-    {new_number}")
-    
+    print(f"The factorial of {num} is {new_number}")

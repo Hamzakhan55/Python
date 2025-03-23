@@ -1,12 +1,13 @@
-word = input("Enter a word to check pallindrome: ")
+
+word = input("Enter a string to check pallindrome : ")
 
 new_word = word.lower()
-newStr = ""
-index = len(new_word)-1
+new_str = ''
+index = len(new_word) - 1
 while index >= 0:
-    newStr += new_word[index]
+    new_str += new_word[index]
     index -= 1
-if newStr == new_word:
-    print("the word is pallindrome")
+if new_word == new_str:
+    print(f"your string {word} is pallindrome")
 else:
-    print("not pallindrome")
+    print(f"Your string {word} is not Pallindrome")
